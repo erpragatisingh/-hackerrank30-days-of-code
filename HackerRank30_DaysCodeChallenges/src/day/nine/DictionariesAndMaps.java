@@ -16,6 +16,8 @@ public class DictionariesAndMaps {
 	 public static void main(String []args){
 	        Map<String,Integer> phoneBook = new HashMap<String,Integer>();
 	        Scanner scan = new Scanner(System.in);
+	        DictionariesAndMaps andMaps=new DictionariesAndMaps();
+	        System.out.println("Data of main method"+args.toString());
 	        int n = scan.nextInt();
 	        for(int i = 0; i < n; i++){
 	            String name = scan.next();
